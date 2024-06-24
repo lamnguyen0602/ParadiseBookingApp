@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-// note push to helper
+// note push to helper 33
 
 func ConvertPlaceEntityToGetModel(data *entities.Place, isFree bool, ratingAverage *float64) *iomodel.GetPlaceResp {
 	res := &iomodel.GetPlaceResp{
