@@ -6,6 +6,8 @@ import (
 	"strings"
 )
 
+// note push
+
 func ConvertPlaceEntityToGetModel(data *entities.Place, isFree bool, ratingAverage *float64) *iomodel.GetPlaceResp {
 	res := &iomodel.GetPlaceResp{
 		ID:            data.Id,
